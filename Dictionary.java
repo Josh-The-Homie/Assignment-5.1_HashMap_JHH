@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * @author Joshua Henderson
  */
-public class Dictionary{
+public class dictionary{
     public static Map<String, String> readCSVData(String filePath) {
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             Map<String, String> dataMap = new HashMap<>();
