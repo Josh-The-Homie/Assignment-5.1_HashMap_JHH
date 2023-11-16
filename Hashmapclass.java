@@ -8,7 +8,7 @@ public class Hashmapclass {
 
     public static void main(String[] args) {
         String filePath = "DictionaryWordValuePairs.csv"; // Replace with the path to your CSV file
-        Map<String, String> dataMap = Dictionary.readCSVData(filePath);
+        Map<String, String> dataMap = dictionary.readCSVData(filePath);
 
         if (dataMap != null) {
             HashMap<String, String> hashMap = createHashMap(dataMap);
